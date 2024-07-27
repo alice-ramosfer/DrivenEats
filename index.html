@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="container">
+        <div class="borrar_fundo"></div>
+        <div class="topo">
+            <h1>DrivenEats</h1>
+            <h2>Sua comida em 6 minutos</h2>
+        </div>
+        <div class="conteudo">
+            <div class="prato">
+                <h1>Primeiro, seu prato</h1>
+                <div class="opcoes_produtos_prato">
+
+                    <div class="produtos">
+                        <button class="opcoes" onclick="selecionadoPrato(this)">
+                            <img src="projeto__driven-eats__imagens/pf_batata.png">
+                            <div class="descricao">
+                                <h1>Frango Yin Yang</h1>
+                                <h3>
+                                    <span>Um pouco de batata,</span>
+                                    <span>um pouco de salada</span>
+                                </h3>
+                                <p>R$ 14,90</p>  
+                            </div>  
+                            <ion-icon name="checkmark-circle" class="icone"></ion-icon>          
+         
+                        </button>
+                    </div>
+                    <div class="produtos">
+                        <button class="opcoes" onclick="selecionadoPrato(this)">
+                            <img src="projeto__driven-eats__imagens/pf_calabresa.png">
+                            <div class="descricao">
+                                <h1>Batata com calabresa</h1>
+                                <h3>
+                                    <span>Um pouco de arroz,</span>
+                                    <span>um pouco de feijão</span>
+                                </h3>
+                                <p>R$ 15,90</p>            
+                            </div>           
+                            <ion-icon name="checkmark-circle" class="icone"></ion-icon>
+                        </button>
+                    </div>
+                    <div class="produtos">
+                        <button class="opcoes" onclick="selecionadoPrato(this)">
+                            <img src="projeto__driven-eats__imagens/pf_carne.jpg">
+                            <div class="descricao">
+                                <h1>Bife com ovo</h1>
+                                <h3>
+                                    <span>Um pouco de arroz,</span>
+                                    <span>um pouco de salada</span>
+                                </h3>
+                                <p>R$ 16,90</p> 
+                                <ion-icon name="checkmark-circle" class="icone"></ion-icon>           
+                            </div>           
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bebida">
+                <h1>Agora, sua bebida</h1>
+                <div class="opcoes_produtos_bebida">
+
+                    <div class="produtos">
+                        <button class="opcoes" onclick="selecionadoBebida(this)">
+                            <img src="projeto__driven-eats__imagens/coca.png">
+                            <div class="descricao">
+                                <h1>Coca-Cola</h1>
+                                <h3>
+                                    <span>Lata 350ml </span>
+                
+                                </h3>
+                                <p>R$ 4,90</p>            
+                            </div>
+                            <ion-icon name="checkmark-circle" class="icone"></ion-icon>           
+                        </button>
+                    </div>
+                    <div class="produtos">
+                        <button class="opcoes" onclick="selecionadoBebida(this)">
+                            <img src="projeto__driven-eats__imagens/fanta.png">
+                            <div class="descricao">
+                                <h1>Fanta</h1>
+                                <h3>
+                                    <span>Lata 350ml</span>
+                                </h3>
+                                <p>R$ 4,90</p>            
+                            </div>
+                            <ion-icon name="checkmark-circle" class="icone"></ion-icon>           
+                        </button>
+                    </div>
+                    <div class="produtos">
+                        <button class="opcoes" onclick="selecionadoBebida(this)">
+                            <img src="projeto__driven-eats__imagens/suco.png">
+                            <div class="descricao">
+                                <h1>Suco Natural</h1>
+                                <h3>
+                                    <span>Copo 400ml</span>
+                                </h3>
+                                <p>R$ 5,50</p>            
+                            </div>
+                            <ion-icon name="checkmark-circle" class="icone"></ion-icon>           
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="sobremesa">
+                <h1>Agora, sua bebida</h1>
+                <div class="opcoes_produtos_sobremesa">
+
+                    <div class="produtos" >
+                        <button class="opcoes" onclick="selecionadoSobremesa(this)">
+                            <img src="projeto__driven-eats__imagens/brownie.jpg">
+                            <div class="descricao">
+                                <h1>Brownie</h1>
+                                <h3>
+                                    <span>Brownie crocante</span>
+                                </h3>
+                                <p>R$ 6,00</p>            
+                            </div>           
+                            <ion-icon name="checkmark-circle" class="icone"></ion-icon>
+                        </button>
+                    </div>
+                    <div class="produtos">
+                        <button class="opcoes" onclick="selecionadoSobremesa(this)">
+                            <img src="projeto__driven-eats__imagens/mouse.jpg">
+                            <div class="descricao">
+                                <h1>Mouse</h1>
+                                <h3>
+                                    <span>Mouse de maracujá</span>
+
+                                </h3>
+                                <p>R$ 10,75</p>            
+                            </div>  
+                            <ion-icon name="checkmark-circle" class="icone"></ion-icon>         
+                        </button>
+                    </div>
+                    <div class="produtos">
+                        <button class="opcoes" onclick="selecionadoSobremesa(this)">
+                            <img src="projeto__driven-eats__imagens/pudim.jpg">
+                            <div class="descricao">
+                                <h1>Pudim</h1>
+                                <h3>
+                                    <span>Pudim pequeno</span>
+                                </h3>
+                                <p>R$ 7,90</p>            
+                            </div> 
+                            <ion-icon name="checkmark-circle" class="icone"></ion-icon>          
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="barra_inferior">
+            <button class="botao_fechar" onclick="fecharPedido()">Selecione os 3 itens para fechar o pedido</button>
+        </div>
+ 
+    </div>
+    <div class="tela_final">
+        <div class="container_telaFinal">
+            <div class="titulo_telaFinal">
+                <h1>Confime seu pedido</h1>
+            </div>
+            <div class="info_prato">
+                <h2>
+                    <p class="prato_selecionado"></p>                    
+                    <p class="bebida_selecionado"></p>                    
+                    <p class="sobremesa_selecionado"></p>
+                    
+                    <p>TOTAL</p>
+                </h2>
+                <h1>
+                    <p class="total_prato_selecionado"></p>                    
+                    <p class="total_bebida_selecionado"></p>                    
+                    <p class="total_sobremesa_selecionado"></p>
+                    
+                    <p class="total">yyy</p>
+                </h1>
+            </div>
+            <div class=" botoes_finais">
+                <button onclick="enviarMensagem()">Tudo certo, pode pedir!</button>
+                <button onclick="cancelarPedido()" >Cancelar</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
